@@ -31,7 +31,6 @@ func main() {
 
 	// Run service
 	if err := service.Run(); err != nil {
-		jjj
 		log.Fatal(err)
 	}
 }
